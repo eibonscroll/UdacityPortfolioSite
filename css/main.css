@@ -1,0 +1,61 @@
+/*
+* {
+    border: 1px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*/
+body {
+    background-color: darkslategray;
+    font-family: 'Inconsolata';
+    font-weight: 300;
+    color: salmon;
+}
+
+/* background for bootstrap model */
+.modal-background {
+    background-color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: chartreuse;
+}
+
+/* visited link */
+a:visited {
+    color: lightsalmon;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgreen;
+}
+
+/* selected link */
+a:active {
+    color: salmon;
+}
+
+/* text */
+.text-thin {
+    font-weight: 100;
+}
+
+.text-muted {
+    color: lightsalmon;
+}
+
+/* row borders */
+.bottom-border {
+    border-bottom: solid lightgreen 4px;
+}
+
+.top-border {
+    border-top: solid lightgreen 4px;
+}
