@@ -12,7 +12,7 @@ var changeMainImage = function () {
         $('#mainImage').attr("src", "img/sumo.jpg");
         $('#mainImage').attr("alt", "a sumo robot");
     }
-}
+};
 
 $(window).resize(function () {
     //resize just happened, pixels changed

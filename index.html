@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <link rel="shortcut icon" type="image/png" href="img/icon-console-fav.png">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,9 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/regrid.js"></script>
+
 </head>
 <body>
     <div id="container" class="container">
@@ -26,11 +25,11 @@
             </div>
         </header>
         <!-- Main Page Picture -->
-        <div class="row">
+        <section class="row">
             <div class="col-md-12">
                 <img id="mainImage" class="img-responsive center-block" src="img/board.jpg" alt="a motherboard">
             </div>
-        </div>
+        </section>
         <!-- Label for Reel -->
         <section class="row">
             <div class="col-md-12">
@@ -40,32 +39,32 @@
         <!-- Reel -->
         <main class="row">
             <div class="col-md-4">
-                <div class="center-block">
-                    <img class="img-responsive center-block" src="img/boxart.png" sizes="(min-width:250px) 620px, (min-width:320px) 125px"
-                         srcset="img/boxart-small.png 125w, img/boxart.png 250w" alt="Picture of cartoon cat chasing laser pointer"
+                <article class="center-block">
+                    <img class="img-responsive center-block" src="img/boxart-large.png" sizes="(max-width:400px) 100vw, (min-width: 401px) 50vw"
+                         srcset="img/boxart-large.png 500w, img/boxart.png 250w, img/boxart-small.png 125w" alt="Picture of cartoon cat chasing laser pointer"
                          data-toggle="modal" data-target="#ichlModal">
-                </div>
+                </article>
                 <h3 class="text-center text-uppercase">UE4 Programming / AI</h3>
-                    <p class="text-center"><a href="http://tinyurl.com/z7jwv46">Link to project</a></p>
+                    <p class="text-center"><a href="http://tinyurl.com/z7jwv46" target="_blank">Link to project</a></p>
 
             </div>
                 <div class="col-md-4">
-                    <div class="center-block">
-                        <img class="img-responsive center-block" src="img/Borderlands_THC.jpg" sizes="(min-width:250px) 620px, (min-width:320px) 125px"
-                            srcset="img/Borderlands_THC-small.jpg 125w, img/Borderlands_THC.jpg 250w" alt="Box art for game Borderlands 2"
+                    <article class="center-block">
+                        <img class="img-responsive center-block" src="img/borderlands-small.jpg" sizes="(max-width:400px) 100vw, (min-width: 401px) 50vw"
+                            srcset="img/borderlands-large.jpg 500w, img/borderlands.jpg 250w, img/borderlands-small.jpg 125w" alt="Box art for game Borderlands 2"
                             data-toggle="modal" data-target="#border2Modal">
-                    </div>
+                    </article>
                     <h3 class="text-center text-uppercase">UE3/UI Programming</h3>
-                    <p class="text-center"><a href="http://tinyurl.com/z3lbslf">Link to project</a></p>
+                    <p class="text-center"><a href="http://tinyurl.com/z3lbslf" target="_blank">Link to project</a></p>
             </div>
             <div class="col-md-4">
-                    <div class="center-block">
-                        <img class="img-responsive center-block" src="img/pacman.png" sizes="(min-width:250px) 620px, (min-width:320px) 125px"
-                             srcset="img/pacman-small.png 125w, img/pacman.png 250w" alt="Picture of Pac Man screen not done by an artist"
+                    <article class="center-block">
+                        <img class="img-responsive center-block" src="img/pacman-large.png" sizes="(max-width:400px) 100vw, (min-width: 401px) 50vw"
+                             srcset="img/pacman-large.png 500w, img/pacman.png 250w, img/pacman-small.png 125w" alt="Picture of Pac Man screen not done by an artist"
                          data-toggle="modal" data-target="#pacmanModal">
-                    </div>
+                    </article>
                 <h3 class="text-center text-uppercase">UDK Tutorial</h3>
-                <p class="text-center"><a href="http://tinyurl.com/gvtahex">Link to project</a></p>
+                <p class="text-center"><a href="http://www.gamesradar.com/borderlands-handsome-collections-4-player-split-screen-ace/" target="_blank">Link to project</a></p>
             </div>
         </main>
         <footer class="row top-border">
@@ -75,7 +74,7 @@
                     <a href="http://jigsaw.w3.org/css-validator/check/referer">
                         <img style="border:0;width:88px;height:31px"
                              src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-                             alt="Valid CSS!" />
+                             alt="Valid CSS!"></a>
                     </a>
                 </p>
             </div>
@@ -110,7 +109,7 @@
                     <h4 class="modal-title" id="border2ModalLabel">The Handsome Collection</h4>
                 </header>
                 <div class="modal-body">
-                    <img class="img-responsive center-block" src="img/Borderlands_THC.jpg" alt="Box art for game Borderlands 2">
+                    <img class="img-responsive center-block" src="img/boderlands.jpg" alt="Box art for game Borderlands 2">
                     <p>I worked on the port of Borderlands 2 The prequiel to PS4 and XBox One as a UI Programmer. I added
                     Splitscreen Play for 4 players and fixed it for 2 and 3 players as well as fixing numurous bugs in the
                     HUD and UI. The Splitscreen play for this game received extremely high ratings and was talked about
@@ -141,5 +140,8 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/regrid.js"></script>
 </body>
 </html>
