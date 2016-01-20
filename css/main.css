@@ -1,13 +1,17 @@
 body {
-    background-color: darkslategray;
-    font-family: 'Inconsolata';
+    background-color: black;
+    font-family: "Inconsolata";
     font-weight: 300;
     color: salmon;
 }
 
-/* background for bootstrap model */
+/* background, overiding from bootstrap model */
 .modal-background {
     background-color: black;
+}
+
+.container {
+    background-color: darkslategray;
 }
 
 /* unvisited link */
@@ -46,4 +50,23 @@ a:active {
 
 .top-border {
     border-top: solid lightgreen 4px;
+}
+
+/* css widget */
+.css-validator {
+    border: 0;
+    width: 88px;
+    height: 31px;
+}
+
+/* moving silon head row*/
+.silon_track {
+    margin: 20px;
+}
+
+/* moving silon head */
+.silon {
+    border: 5px;
+    width: 132px;
+    height: 54px;
 }
